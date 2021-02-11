@@ -1,0 +1,29 @@
+.postForm{
+    text-align: center;
+    margin-top:30px;
+}
+
+form{
+    display:inline;
+}
+
+form input{
+    width:230px;
+    padding:10px 10px;
+    border-radius: 10px;
+    outline-width: 0;
+}
+
+form input[type="submit"]{
+    background: black;
+    color:white;
+    border-radius:1px solid black;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover{
+    color:black;
+    background:white;
+}
